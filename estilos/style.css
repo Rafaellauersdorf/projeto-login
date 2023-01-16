@@ -31,11 +31,14 @@ main {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition: width 0.3s,heigt 0.3s;
+    -o-transition-timing-function: ease;
 }
 
 #login > #imagem {
     display: block;
-    background: #5f2c82 url(../imagens/back-building.jpg) no-repeat;
+    background: #5f2c82 url(../imagens/back-pattern2.jpg) no-repeat;
     background-size: cover;
     background-position: right bottom;
     height: 200px;
